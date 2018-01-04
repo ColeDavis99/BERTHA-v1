@@ -1,0 +1,1 @@
+C:\Users\Cole\Desktop\BERTHA-v1\NewStream\nc\nc.exe -L  -l -v -p 5001 | C:\Users\Cole\Desktop\BERTHA-v1\NewStream\mplayer\mplayer.exe -fps 60 -cache 2048  -
