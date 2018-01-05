@@ -24,13 +24,21 @@ Hardware:
   
   
   
-==========   ListenForStream.cmd   ==========
+========   ListenForStream.cmd   ========
+
 This file is ran on the Windows Computer you want to stream the video to. Execute this file before you execute BeginStream.sh. 
 
 
-==========   BeginStream.sh   ==========
+
+
+========   BeginStream.sh   ========
+
 This bash file is ran on the Raspberry Pi after ListenForStream.cmd is ran. This file will have to be edited to account for your paths to mplayer and netcat.
 
 
-==========   Controller.py   ==========
-Start VNC server on the pi, connect to the pi on the Windows computer, and execute this script. Upon execution, this script will create a 100x100 window on the pi. The robot will only move when that 100x100 frame is the active window (click it to make it active). 
+
+
+========   Controller.py   ========
+
+Start VNC server on the pi, connect to the pi on the Windows computer, and execute this script. Upon execution, this script will create a 100x100 window on the pi. The robot will only move when that 100x100 frame is the active window (click it to make it active).
+
